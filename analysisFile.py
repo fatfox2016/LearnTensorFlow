@@ -54,5 +54,5 @@ def sort_by_value(fileName):
 
 result = sort_by_value('text.txt')
 lenR = len(result) 
-r = result[lenR-10:lenR] #取10个词频最高的二元词组
+r = result[lenR-10:lenR]#取10个词频最高的二元词组
 print(r)
