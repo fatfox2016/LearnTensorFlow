@@ -53,6 +53,6 @@ def sort_by_value(fileName):
     return backitems #[ backitems[i][1] for iew in range(0,len(backitems))]
 
 result = sort_by_value('text.txt')
-lenR = len(result) - 1
+lenR = len(result) 
 r = result[lenR-10:lenR] #取10个词频最高的二元词组
 print(r)
